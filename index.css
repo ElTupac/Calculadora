@@ -1,0 +1,106 @@
+.outter-container{
+    width: 450px;
+    background-color: #e0aaff;
+}
+
+.little-display{
+    border-left: 2px solid #9d4edd;
+    position: relative;
+    left: 50px;
+    width: 400px;
+    height: 40px;
+    background-color: #c77dff;
+}
+
+#current-operation{
+    margin: 0;
+    text-align: end;
+    font-size: 28px;
+    padding-right: 5px;
+    padding-top: 8px;
+}
+
+.current-input{
+    border-left: 2px solid #9d4edd;
+    position: relative;
+    left: 50px;
+    width: 400px;
+    height: 80px;
+    background-color: #9d4edd;
+}
+
+#current-number{
+    padding-top: 15px;
+    padding-right: 5px;
+    margin: 0;
+    font-size: 60px;
+    text-align: end;
+}
+
+div.inputs{
+    display: inline-flex;
+}
+
+section.numbers-sec{
+    width: 300px;
+    background-color: #e0aaff;
+    
+    padding-bottom: 2px;
+}
+
+p.input-number{
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    width: 64px;
+    margin-top: 3px;
+    margin-left: 1px;
+    margin-right: 0;
+    margin-bottom: 2px;
+    padding: 20px 15px;
+    background-color: #c77dff;
+    border: 1px solid #7b2cbf;
+}
+
+section.operators-sec{
+    padding-left: 3px;
+    width: 149px;
+    background-color: #e0aaff;
+}
+
+p.input-operator{
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    width: 38px;
+    padding: 20px 15px;
+    background-color: #c77dff;
+    border: 1px solid #7b2cbf;
+    margin-top: 3px;
+    margin-left: 2px;
+    margin-right: 0;
+    margin-bottom: 2px;
+}
+
+p.input-operator:hover{
+    animation: mouseOver 0.5s normal;
+    background-color: #7b2cbf;
+}
+
+p.input-number:hover{
+    animation: mouseOver 0.5s normal;
+    background-color: #7b2cbf;
+}
+
+@keyframes mouseOver{
+    from{
+        background-color: #c77dff;
+    }
+    to{
+        background-color: #7b2cbf;
+    }
+}
+
+#zero{
+    width: 114px;
+}
